@@ -22,7 +22,7 @@ public class UserEntity {
     @Column(name = "role")
     private String role;
 
-    @Column(name = "surnameFirstNamePatronymic")
-    private String surnameFirstNamePatronymic;
+    @Column(name = "fullName")
+    private String fullName;
 
 }
